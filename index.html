@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+</head>
+<body>
+	<div class='container'>
+	    <table class="striped centered">
+	        <thead>
+	          <tr>
+	              <th>Coin</th>
+	              <th>Price</th>
+	              <th>%24h</th>
+	          </tr>
+	        </thead>
+
+	        <tbody>
+	          <tr>
+	            <td>ETH</td>
+	            <td id='ETH_price'></td>
+	            <td id='ETH_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>DASH</td>
+	            <td id='DASH_price'></td>
+	            <td id='DASH_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>ETC</td>
+	            <td id='ETC_price'></td>
+	            <td id='ETC_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>REP (Augur)</td>
+	            <td id='REP_price'></td>
+	            <td id='REP_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>LTC</td>
+	            <td id='LTC_price'></td>
+	            <td id='LTC_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>GNT (Golem)</td>
+	            <td id='GNT_price'></td>
+	            <td id='GNT_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>GNO (Gnosis)</td>
+	            <td id='GNO_price'></td>
+	            <td id='GNO_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>DGD (DigixDAO</td>
+	            <td id='DGD_price'></td>
+	            <td id='DGD_24h'></td>
+	          </tr>
+	          <tr>
+	            <td>BCAP (BlockahinCapital)</td>
+	            <td id='DGD_price'></td>
+	            <td id='DGD_24h'></td>            
+	          </tr>   
+	          <tr>
+	            <td>ICN (Iconomi)</td>
+	            <td id='ICN_price'></td>
+	            <td id='ICN_24h'></td>
+	          </tr>                         
+	        </tbody>
+	    </table>
+	</div>	    
+</body>
+
+
+	<script type="text/javascript" src='app.js'></script>
+
+</html>
