@@ -1,4 +1,4 @@
-var socket = io.connect('http://socket.coincap.io');
+var socket = io.connect('https://socket.coincap.io');
 
 socket.on('trades', function (tradeMsg) {
 	const myCoinArray = ['ETH', 'DASH', 'ETC', 'REP', 'LTC', 'ICN', 'GNT', 'GNO', 'DGD', 'BCAP']
