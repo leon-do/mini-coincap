@@ -88,7 +88,7 @@
 		    let cap24hrChange = parseFloat(tradeMsg.message.msg.cap24hrChange)
 
 		    if (myCoinArray.indexOf(coin) >= 0){
-		    	$(`#${coin}_price`).text(coin)
+		    	$(`#${coin}_price`).text(price)
 		    	$(`#${coin}_24h`).text(cap24hrChange)    
 		    	$(`#${coin}_fee`).text(myCoinFee[coin] * price)	
 
